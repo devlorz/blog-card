@@ -10,10 +10,62 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
+  background: linear-gradient(#F9FAFB, #D2D6DB);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  width: 340px;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 8px 8px 0 0;
+}
+
+.description {
+  padding: 24px 16px;
+}
+
+.badge {
+  display: inline;
+  background-color: #F0FDF4;
+  color: #15803D;
+  font-size: 0.875rem;
+  height: 24px;
+  line-height: 1.25rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  border: 1px solid #BBF7D0;
+}
+
+.title {
+  color: #171717;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.subtitle {
+  margin-top: 12px;
+  color: #525252;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4338CA;
+  line-height: 1.5rem;
 }
 
 .credits {
